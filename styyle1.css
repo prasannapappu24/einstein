@@ -1,0 +1,335 @@
+*{
+    margin:5px;
+    font-size: 20px;
+    font-family:'cursive';
+    text-decoration: none;
+}
+
+
+.main{
+    text-align:center;
+    border: 3px solid rgb(155, 71, 29);
+    height: 50px;
+    background-color: #31312e;
+    color:rgb(195, 181, 50);
+    width:100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+  .navbar{
+    height: 40px;
+    background-image: url("einstein2.jpg");
+    width:100%;
+    border: 3px solid rgb(39, 73, 45);
+    padding-top: 15px;
+    display:flex;
+    justify-content: space-around;  
+  }
+  
+.navbar a {
+    color: white;
+    font-size: 20px;
+}
+.about{
+    display: flex;
+    padding:50px;
+    align-content: center;
+  
+  }
+  
+  .abt{
+    height: 50px;
+    width: 500px;
+    display: inline-block;
+    text-align:center;
+  }
+  .abt1{
+    line-height: 20px;
+    color: #f55bc2;
+    display:inline-block;
+    padding:50px;
+    font-size: 20px;
+
+  }
+  #About{
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    border: 3px solid rgb(236, 184, 73);
+    color: #2B616D;
+  }
+  .info{
+    height: 350px;
+    background-color: beige;
+    color: #ef4152;
+    display: inline-block;
+    
+  }
+  img{
+    border: 3px solid white;
+  }
+  
+  #Papers h2{
+    text-align: center;
+    
+  }
+  #Papers{
+    height:auto;
+    width: 97.5%;
+    border: 3px solid rgb(158, 161, 49);
+    background-color: beige;
+    padding:20px;
+    text-decoration: none;
+  }
+  .volumes{
+      padding:20px;
+      display:grid;
+      justify-content: center;
+      align-content: center;
+      grid-gap:1rem;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      border: 6px solid rgb(45, 45, 44);
+      text-decoration: none;
+  }
+  .volumes a{
+    color:#602062;
+  }
+  #Hobbies{ 
+    height:auto;
+    background-color:beige;
+    width:100%;
+    border: 3px solid rgb(14, 152, 67);
+    color: #2B616D;
+  }
+  .h{
+    padding:20px;
+    text-align:center;
+    justify-content: space-around;
+    display:flex;
+  }
+  .hobs{
+    padding:20px;
+    display:grid;
+    justify-content: center;
+    align-content: center;
+    grid-gap:1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+  #Blogs{
+    height:auto;
+    background-color: beige;
+    width:100%;
+    font-size: 20px;
+    border: 3px solid rgb(145, 169, 214);  
+   
+  }
+  .blogs1 {
+    padding:10px;
+  }
+  .blogs1 a{
+    color:#602062;
+  }
+  #Quotes{ 
+    height:auto;
+    background-color:beige;
+    width:100%;
+    border: 3px solid rgb(14, 152, 67);
+    color: #040708;
+    
+  }
+  .q{
+    padding:20px;
+    text-align:center;
+    justify-content: space-around;
+    display:flex;
+    color:rgb(78, 90, 10);
+  }
+  .q a{
+    
+    color:rgb(34, 181, 181);
+  }
+  
+  @media only screen and (max-width: 700px) {
+    main {
+      display: flex;
+    }
+    .navbar{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+        justify-content: space-around;
+        height:auto;
+    }
+
+    .about {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .abt{
+        display: table;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .abt1 {
+        display: table;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+      }
+   
+      .hobbies {
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .papers {
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+      }
+      .hobbies1{
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr;
+        align-content:center;
+    }
+    .hobs{
+      display: grid;
+      grid-gap:1rem;
+      justify-content: space-around;
+      align-items: center;
+      grid-template-columns: 1fr;
+      align-content:center;
+  }
+  .h{
+    display: grid;
+    grid-gap:1rem;
+    justify-content: space-around;
+    align-items: center;
+    grid-template-columns: 1fr;
+    align-content:center;
+}
+    .volumes {
+        display:grid;
+        grid-gap:1rem;
+        grid-template-columns: 1fr;
+        align-content:center;
+      }
+
+      .blogs1 {
+        display: grid;
+        justify-content: space-around;
+        align-items: center;
+      }
+      .quotes1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+}
+
+@media only screen and (max-width: 1400px) {
+    .volumes {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+}
+@media only screen and (max-width: 1100px) {
+      .volumes {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 1fr 1fr;
+      }
+      .hobbies1 {
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .hobs {
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr 1fr;
+      }
+      .quotes1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+ 
+}
+@media only screen and (max-width: 900px) {
+    .volumes {
+      display:grid;
+      grid-gap:1rem;
+      text-align: center;
+      grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+      .hobbies1 {
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+      .hobs {
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr 1fr;
+      }
+      .quotes1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
+@media only screen and (max-width: 700px) {
+    .hobbies1{
+        display: grid;
+        grid-gap:1rem;
+        justify-content: space-around;
+        align-items: center;
+        grid-template-columns: 1fr;
+        align-content: center;
+    }
+    .hobs{
+      display: grid;
+      grid-gap:1rem;
+      justify-content: space-around;
+      align-items: center;
+      grid-template-columns: 1fr;
+      align-content: center;
+  }
+    .volumes {
+        display:grid;
+        grid-gap:1rem;
+        text-align: center;
+        grid-template-columns: 0.5fr;
+        align-content: center;
+      }
+      .quotes1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+      }
+    }
